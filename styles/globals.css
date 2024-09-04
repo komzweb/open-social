@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'highlight.js/styles/github-dark.css';
+
+.custom-link {
+  text-decoration: underline;
+}
+
+.inline-code {
+  font-size: 0.875rem; /* Tailwind's text-sm equivalent */
+  border: 1px solid #64748b; /* Tailwind's border-slate-500 equivalent */
+  padding: 0.125rem 0.25rem; /* Tailwind's px-1 py-0.5 equivalent */
+  margin: 0 0.25rem; /* Tailwind's mx-1 equivalent */
+  border-radius: 0.25rem; /* Tailwind's rounded equivalent */
+}
+
+.code-block {
+  font-size: 0.75rem; /* Tailwind's text-xs equivalent */
+}
+
+.md {
+  h2 {
+    font-size: 1.125rem; /* text-lg */
+    line-height: 1.75rem;
+    font-weight: 600; /* font-semibold */
+  }
+
+  h3 {
+    font-size: 1rem; /* text-base */
+    line-height: 1.5rem;
+    font-weight: 600; /* font-semibold */
+  }
+
+  ul,
+  ol {
+    padding-left: 1rem; /* pl-4 */
+  }
+
+  ul {
+    list-style-type: disc;
+  }
+
+  ol {
+    list-style-type: decimal;
+  }
+
+  blockquote {
+    border-left: 4px solid #cbd5e1; /* border-slate-300 */
+    padding-left: 0.5rem; /* pl-2 */
+    font-style: italic;
+    color: #64748b; /* text-slate-500 */
+  }
+}
+
+.dark hr {
+  border-color: #1e293b; /* Tailwind's text-slate-600 equivalent */
+}
