@@ -2,6 +2,8 @@
 
 OpenSocial is a social media app built with Next.js and PostgreSQL. The project is published as an advanced example for developers who want to build apps like Hacker News or Reddit.
 
+[Demo video](https://x.com/i/status/1831191131906101519)
+
 ![OpenSocial](./public/images/open-social.png)
 
 ## Key Features
@@ -120,6 +122,7 @@ This project uses [Vercel Cron Jobs](https://vercel.com/docs/cron-jobs) to updat
 - [Tailwind CSS](https://tailwindcss.com/)
 - [shadcn/ui](https://ui.shadcn.com/)
 - [Auth.js](https://authjs.dev/)
+- [Resend](https://resend.com/)
 - [Drizzle ORM](https://orm.drizzle.team/) (PostgreSQL)
 - [Vercel Postgres](https://vercel.com/storage/postgres)
 - [Vercel KV](https://vercel.com/storage/kv)
